@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build macOS universal binaries
-    runs-on: macos-13
+    runs-on: macos-latest
 
     steps:
       - name: Checkout
